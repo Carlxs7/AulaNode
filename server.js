@@ -12,7 +12,7 @@ app.get('/home', (req, res) => {
 
 app.get('/me', (req, res) => {
     console.log(req.query);
-    res.send(`Meu nome é ${req.query.nome}, Moro em ${req.query.cidade}`);
+    res.send(`Meu nome é ${req.query.nome}$ git , Moro em ${req.query.cidade}`);
 })
 
 app.listen(1234, () => {
